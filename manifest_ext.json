@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "4U Drop — Transferência Direta & Privada",
+  "version": "1.0.0",
+  "description": "Envie e receba arquivos e textos entre o computador e celular instantaneamente de forma 100% privada.",
+  "action": {
+    "default_popup": "index.php",
+    "default_icon": {
+      "16": "favicon.svg",
+      "48": "favicon.svg",
+      "128": "favicon.svg"
+    }
+  },
+  "icons": {
+    "16": "favicon.svg",
+    "48": "favicon.svg",
+    "128": "favicon.svg"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://4u.ia.br/*"
+  ]
+}
